@@ -31,7 +31,7 @@ export const CountryDetails = ({ country }: { country: Country }) => {
           {country.name.official}
         </h2>
 
-        <ul className="mt-2 flex flex-col gap-2 text-gray-800 text-sm">
+        <ul className="mt-2 flex flex-col gap-2 text-sm">
           <li>
             <span className="font-semibold">Столица:</span>{' '}
             {country.capital?.[0] ?? '—'}
